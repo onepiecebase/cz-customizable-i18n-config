@@ -14,7 +14,8 @@
     "lint:js": "eslint --cache --fix --ext .js,.jsx ./",
     "lint": "npm run lint:js",
     "format:js": "prettier --config .prettierrc.js --write \"**/*.{js,jsx,scss,md,json,yml}\"",
-    "format": "npm run format:js"
+    "format": "npm run format:js",
+    "test": "echo \"no test\""
   },
   "config": {
     "commitizen": {
