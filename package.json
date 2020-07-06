@@ -7,7 +7,6 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "pretest": "symlink-dir . ./node_modules/cz-customizable-i18n",
     "commit": "git-cz",
     "lint-stage:format": "prettier --config .prettierrc.js --write --",
     "lint-stage:lint:js": "eslint --cache --fix --ext .js,.jsx --",
@@ -41,8 +40,7 @@
   "dependencies": {
     "commitizen": "^4.0.4",
     "cz-customizable": "^6.2.0",
-    "cz-emoji": "^1.2.1",
-    "symlink-dir": "^4.1.0"
+    "cz-emoji": "^1.2.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
